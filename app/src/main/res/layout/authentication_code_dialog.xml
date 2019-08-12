@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:layout_width="650dp"
+                android:layout_height="350dp">
+
+            <ImageView
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/btnCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:clickable="true"
+                    android:background="@drawable/cancel_btn_selector"
+                    android:src="@drawable/ic_close_black"
+                    android:focusable="true"
+                    android:padding="8dp"
+                    android:textAllCaps="false"
+                    android:contentDescription="@string/content_description"/>
+
+
+            <LinearLayout
+                    android:layout_below="@+id/btnCancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textSize="32dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:text="@string/log_in_with_facebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/txtNextVisit"
+                            android:textSize="24dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="24dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/com_facebook_blue"
+                            android:text="@string/facebook_com_device"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:id="@+id/txtOnYourSmartPhone"
+                            android:textSize="24dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="24dp"
+                            android:layout_gravity="center"
+                            android:textColor="#B2696969"
+                            android:text="@string/on_your_smart_phone_or_computer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:id="@+id/txtEnterThisCode"
+                            android:textSize="24dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="24dp"
+                            android:layout_gravity="center"
+                            android:textColor="#B2696969"
+                            android:text="@string/and_enter_this_code"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <TextView
+                        android:id="@+id/txtUserCode"
+                        android:textSize="42dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#F7222121"
+                        android:text="gfttyewtyry"
+                        android:textAllCaps="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:layout_marginTop="24dp"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                    <TextView
+                            android:textSize="18dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="9dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#E6B81414"
+                            android:text="@string/code_expire_in"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    <TextView
+                            android:id="@+id/txtCodeExpireIn"
+                            android:textSize="18dp"
+                            android:paddingRight="24dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:textColor="#E6B81414"
+                            android:text="04:30 sec"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>
+
+
+
+
+

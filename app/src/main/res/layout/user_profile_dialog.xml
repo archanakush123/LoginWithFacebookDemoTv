@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:layout_width="550dp"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:padding="24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:textSize="36dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#E6444444"
+                        android:text="@string/success"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="80dp">
+
+                        <ImageView
+                                android:id="@+id/imgUserProfilePic"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:contentDescription="@string/content_description"/>
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                        <TextView
+                                android:id="@+id/txtUserName"
+                                android:textSize="24dp"
+                                android:paddingLeft="24dp"
+                                android:paddingRight="24dp"
+                                android:layout_gravity="left"
+                                android:textColor="#636363"
+                                android:text="Nonton Android Tv"
+                                android:maxLines="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                        <TextView
+                                android:textSize="24dp"
+                                android:paddingLeft="24dp"
+                                android:paddingRight="24dp"
+                                android:layout_gravity="left"
+                                android:textColor="#636363"
+                                android:text="@string/you_are_now_logged_in"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                    <Button
+                            android:id="@+id/btnContinue"
+                            android:text="@string/str_continue"
+                            android:textSize="24dp"
+                            android:paddingLeft="24dp"
+                            android:paddingRight="24dp"
+                            android:layout_gravity="center"
+                            android:textColor="#ffffff"
+                            android:layout_width="match_parent"
+                            android:background="#42b72a"
+                            android:textAllCaps="false"
+                            android:layout_height="72dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>
+
+
+
+
+
